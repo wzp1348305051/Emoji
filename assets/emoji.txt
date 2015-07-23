@@ -1,0 +1,82 @@
+[
+    {
+        "txt": "[anger]",
+        "img": "anger"
+    },
+    {
+        "txt": "[burn]",
+        "img": "burn"
+    },
+    {
+        "txt": "[confused]",
+        "img": "confused"
+    },
+    {
+        "txt": "[cool]",
+        "img": "cool"
+    },
+    {
+        "txt": "[cry]",
+        "img": "cry"
+    },
+    {
+        "txt": "[fire]",
+        "img": "fire"
+    },
+    {
+        "txt": "[grimace]",
+        "img": "grimace"
+    },
+    {
+        "txt": "[love]",
+        "img": "love"
+    },
+    {
+        "txt": "[miao]",
+        "img": "miao"
+    },
+    {
+        "txt": "[prettiness]",
+        "img": "prettiness"
+    },
+    {
+        "txt": "[question]",
+        "img": "question"
+    },
+    {
+        "txt": "[shout]",
+        "img": "shout"
+    },
+    {
+        "txt": "[slobber]",
+        "img": "slobber"
+    },
+    {
+        "txt": "[smile]",
+        "img": "smile"
+    },
+    {
+        "txt": "[spook]",
+        "img": "spook"
+    },
+    {
+        "txt": "[startle]",
+        "img": "startle"
+    },
+    {
+        "txt": "[surprise]",
+        "img": "surprise"
+    },
+    {
+        "txt": "[sweat]",
+        "img": "sweat"
+    },
+    {
+        "txt": "[thirst]",
+        "img": "thirst"
+    },
+    {
+        "txt": "[vomit]",
+        "img": "vomit"
+    }
+]

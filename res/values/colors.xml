@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- 通用颜色 -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#FF545454</color>
+    <color name="pale_gray">#FF707070</color>
+    <color name="blue">#FF04559B</color>
+    <color name="pale_blue">#FF0C5BA3</color>
+    <color name="text_gray">#FF999999</color>
+    
+</resources>
+ 

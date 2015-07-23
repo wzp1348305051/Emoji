@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white" >
+
+    <RelativeLayout
+        android:id="@+id/rl_emoji_input"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center_vertical"
+        android:padding="6dp" >
+
+        <ImageView
+            android:id="@+id/iv_emoji_face"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignParentLeft="true"
+            android:contentDescription="@string/iv_emoji_face"
+            android:src="@drawable/ic_face" />
+
+        <Button
+            android:id="@+id/btn_emoji_send"
+            android:layout_width="54dp"
+            android:layout_height="36dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/emoji_btn_bg"
+            android:text="@string/btn_emoji_send"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/et_emoji_input"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_toLeftOf="@id/btn_emoji_send"
+            android:layout_toRightOf="@id/iv_emoji_face"
+            android:background="@drawable/bg_emoji"
+            android:hint="@string/et_emoji_input"
+            android:singleLine="true"
+            android:textColor="@color/text_gray"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_emoji_face"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_emoji_input"
+        android:visibility="gone" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_emoji_face"
+            android:layout_width="match_parent"
+            android:layout_height="108dp" />
+
+        <LinearLayout
+            android:id="@+id/ll_emoji_dots"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@id/vp_emoji_face"
+            android:gravity="center"
+            android:orientation="horizontal" />
+    </RelativeLayout>
+
+</RelativeLayout>

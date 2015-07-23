@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="iv_emoji_face">选择表情</string>
+    <string name="btn_emoji_send">发送</string>
+    <string name="et_emoji_input"></string>
+    <string name="iv_item_face">表情</string>
+</resources>
